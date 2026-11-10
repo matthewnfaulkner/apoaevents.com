@@ -5,8 +5,8 @@ apoaUrl: https://apoaonline.com
 
 hero:
   eyebrow: Asia Pacific Orthopaedic Association
-  headline: Supporting APOA
-  lead: APOA Events provides the secretariat, development, events, education and digital services of the Asia Pacific Orthopaedic Association, supporting orthopaedic surgeons across the Asia Pacific region.
+  headline: Supporting the APOA since 2018
+  lead: APOA Events provides secretariat, development, events, education and digital services for the Asia Pacific Orthopaedic Association, supporting orthopaedic surgeons across the Asia Pacific region.
   slides:
     - src: /images/hero/hero-1.jpg
       alt: Opening address on stage at the 25th Congress of the Asia Pacific Orthopaedic Association in Jaipur, India
