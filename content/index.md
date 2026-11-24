@@ -42,7 +42,7 @@ services:
     description: Running the Association's online platforms, including websites, online learning and digital communications.
 
 contact:
-  company: APOA Events Sdn Bhd
+  company: APOAEVENTS SDN. BHD.
   address:
     - Unit 3-8, Level 3,
     - Akademi Perubatan Malaysia,
