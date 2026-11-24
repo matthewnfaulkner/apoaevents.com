@@ -146,6 +146,7 @@ a:focus-visible { outline: 2px solid var(--brand-500); outline-offset: 3px; bord
 .site-footer { border-top: 1px solid var(--border); padding: 28px 0; font-size: .9rem; color: var(--text-muted); }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 .site-footer a { color: var(--text-muted); }
+.site-footer p { margin: 0; }
 
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }

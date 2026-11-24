@@ -2,6 +2,13 @@
 title: APOA Events Sdn Bhd
 description: Secretariat, development and events for the Asia Pacific Orthopaedic Association.
 apoaUrl: https://apoaonline.com
+siteUrl: https://apoaevents.com/
+
+# Link previews (Facebook, LinkedIn, WhatsApp, etc.)
+og:
+  title: APOA Events | APOAEVENTS SDN. BHD.
+  description: Event management by APOAEVENTS SDN. BHD., Putrajaya, Malaysia.
+  image: https://apoaevents.com/og-image.jpg
 
 hero:
   eyebrow: Asia Pacific Orthopaedic Association
@@ -43,6 +50,7 @@ services:
 
 contact:
   company: APOAEVENTS SDN. BHD.
+  registration: 201801029482 (1291508-D)
   address:
     - Unit 3-8, Level 3,
     - Akademi Perubatan Malaysia,

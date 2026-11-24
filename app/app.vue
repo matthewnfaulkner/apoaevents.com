@@ -10,9 +10,15 @@ if (!page.value) {
 useSeoMeta({
   title: page.value.title,
   description: page.value.description,
-  ogTitle: page.value.title,
-  ogDescription: page.value.description,
-  ogImage: '/apoa-logo-512.png',
+  ogUrl: page.value.siteUrl,
+  ogType: 'website',
+  ogTitle: page.value.og.title,
+  ogDescription: page.value.og.description,
+  ogImage: page.value.og.image,
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogImageAlt: 'Delegates at the APOA 2025 congress in Cairns, Australia',
+  twitterCard: 'summary_large_image',
 })
 
 const year = new Date().getFullYear()
@@ -117,7 +123,7 @@ const icons: Record<string, string> = {
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <span>© {{ year }} {{ page.contact.company }}</span>
+        <p>© {{ year }} {{ page.contact.company }} {{ page.contact.registration }}. All rights reserved.</p>
         <a :href="page.apoaUrl" target="_blank" rel="noopener">Asia Pacific Orthopaedic Association</a>
       </div>
     </footer>
